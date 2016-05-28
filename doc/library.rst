@@ -2,6 +2,8 @@
 Library functions
 =================
 
+Edit
+
 The ``wordcount_lib`` module can be imported, and has one function,
 ``consume(filename)``.  The function returns a 3-tuple of the
 number of characters, words, and lines.
