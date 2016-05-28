@@ -17,10 +17,10 @@ def _make_testfile(filename, data):
 
 def test_consume_1():
     # do a basic test of the consume function.
-    testfile = _make_testfile('sometext.txt', 'a b cc\nddd')
+    testfile = _make_testfile('sometext.txt', 'a b cc\ndddd')
     chars, words, lines = wordcount_lib.consume(testfile)
 
-    assert chars == 10
+    assert chars == 11
     assert words == 4
     assert lines == 2
 
